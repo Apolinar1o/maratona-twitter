@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    display: flex;
+}
+header {
+    margin: 30px;
+    width: 300px;
+    height: 100vh;
+}
+#logo {
+    margin-left: 45px;
+    height: 40px;
+    width: 40px;
+}
+
+li {
+    margin-top: 30px;
+    font-size: 20pt;
+}
+li#pag {
+    list-style: url(../img/Home.png);
+}
+
+li#explorar {
+    list-style: url(../img/Hashtag.png);
+}
+li#notificacoes {
+    list-style: url(../img/Notification.png);
+}
+li#msg {
+    list-style: url(../img/Group.png);
+}
+li#salvos {
+    list-style: url(../img/Group\ \(1\).png);
+}
+li#listas {
+    list-style: url(../img/Group\ \(2\).png);
+}
+li#perfil {
+    list-style: url(../img/ProfilePic.png);
+}
+li#mais {
+    list-style: url(../img/Group\ \(3\).png);
+}
+
+main {
+    border: 1px solid rgba(0, 0, 0, 0.395);
+    width: 700px;
+    height: 100vh;
+    
+}
+h1 {
+    margin: 80px 20px 20px 20px;
+    font-size: 18pt;
+}
+div#happening{
+    width: 700px;
+    height: 150px;
+    border-top: 1px solid rgba(0, 0, 0, 0.395);
+    display: block;
+    
+}
+#pensando {
+    width: 680px;
+    border: none;
+    height: 100px;
+    font-size: 17pt;
+    padding-left: 10px;
+    
+}
+input#botao {
+    float: right;
+    margin-right: 30px;
+    height: 45px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: rgb(107, 227, 187);
+    color: white;
+    border: none;
+}
+input#botao:hover {
+    background-color: rgb(143, 143, 143);
+}
+
+div#coments {
+    border-top: 15px solid rgba(0, 0, 0, 0.176);
+}
