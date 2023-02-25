@@ -5,9 +5,10 @@
 body {
     display: flex;
 }
+ /* menu */
 header {
     margin: 30px;
-    width: 300px;
+    width: 250px;
     height: 100vh;
 }
 #logo {
@@ -20,6 +21,7 @@ li {
     margin-top: 30px;
     font-size: 20pt;
 }
+/* configurações dos links */
 li#pag {
     list-style: url(../img/Home.png);
 }
@@ -45,37 +47,40 @@ li#perfil {
 li#mais {
     list-style: url(../img/Group\ \(3\).png);
 }
-
+ /* conteudo */
 main {
     border: 1px solid rgba(0, 0, 0, 0.395);
-    width: 700px;
-    height: 100vh;
+    width: 800px;
+    height: auto;
     
 }
 h1 {
     margin: 80px 20px 20px 20px;
     font-size: 18pt;
 }
+ /* area de digitação */
 div#happening{
-    width: 700px;
+    width: 100%;
     height: 150px;
     border-top: 1px solid rgba(0, 0, 0, 0.395);
     display: block;
+
     
 }
 #pensando {
-    width: 680px;
+    width: 98%;
     border: none;
     height: 100px;
     font-size: 17pt;
     padding-left: 10px;
+    outline: none;
     
 }
 input#botao {
     float: right;
     margin-right: 30px;
     height: 45px;
-    width: 100px;
+    width: 120px;
     border-radius: 25px;
     background-color: rgb(107, 227, 187);
     color: white;
@@ -84,7 +89,38 @@ input#botao {
 input#botao:hover {
     background-color: rgb(143, 143, 143);
 }
-
+/* seção dos comentarios */
 div#coments {
-    border-top: 15px solid rgba(0, 0, 0, 0.176);
+    border-top: 15px solid rgba(11, 8, 8, 0.176);
+    
+}
+section.comments{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+
+}
+li.config {
+    font-size: 15pt;
+    margin: 15px;
+    
+    
+}
+
+#comment1 {
+    list-style: url(../img/ProfilePic.png);
+}
+#comment2 {
+    list-style: url(../img/ProfilePic\ \(1\).png);
+}
+#comment3 {
+    list-style: url(../img/ProfilePic\ \(2\).png);
+}
+strong {
+    font-weight: 700;
+}
+span.arroba {
+    color: rgb(147, 147, 147);
+    font-size: 13pt;
+}
+span.destaque {
+    color: rgb(44, 188, 183);
 }
