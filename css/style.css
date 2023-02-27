@@ -49,7 +49,7 @@ li#mais {
 }
  /* conteudo */
 main {
-    border: 1px solid rgba(0, 0, 0, 0.395);
+    border: 1px solid rgba(0, 0, 0, 0.18);
     width: 800px;
     height: auto;
     
@@ -62,7 +62,7 @@ h1 {
 div#happening{
     width: 100%;
     height: 150px;
-    border-top: 1px solid rgba(0, 0, 0, 0.395);
+    border-top: 1px solid rgba(0, 0, 0, 0.18);
     display: block;
 
     
@@ -74,6 +74,7 @@ div#happening{
     font-size: 17pt;
     padding-left: 10px;
     outline: none;
+
     
 }
 input#botao {
@@ -91,17 +92,17 @@ input#botao:hover {
 }
 /* seção dos comentarios */
 div#coments {
-    border-top: 15px solid rgba(11, 8, 8, 0.176);
+    border-top: 15px solid rgba(0, 0, 0, 0.18);
     
 }
 section.comments{
     border-bottom: 1px solid rgba(0, 0, 0, 0.18);
 
+
 }
 li.config {
     font-size: 15pt;
     margin: 15px;
-    
     
 }
 
